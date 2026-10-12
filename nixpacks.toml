@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["deno"]
+
+[start]
+cmd = "uv run mcp-run-python stdio
