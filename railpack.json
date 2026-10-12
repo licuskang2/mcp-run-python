@@ -1,18 +1,7 @@
 {
   "$schema": "https://railpack.com/config.schema.json",
-  "build": {
-    "aptPackages": [
-      "curl",
-      "unzip"
-    ],
-    "steps": [
-      {
-        "commands": [
-          "curl -fsSL https://deno.land/install.sh | sh",
-          "ln -sf /root/.deno/bin/deno /usr/local/bin/deno"
-        ]
-      }
-    ]
+  "packages": {
+    "deno": "latest"
   },
   "deploy": {
     "startCommand": "uv run mcp-run-python streamable-http --port $PORT"
