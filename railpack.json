@@ -4,6 +4,6 @@
     "deno": "latest"
   },
   "deploy": {
-    "startCommand": "uvx mcp-run-python stdio"
+    "startCommand": "uvx mcp-run-python streamable-http 443"
   }
 }
