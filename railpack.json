@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railpack.com/config.schema.json",
+  "deploy": {
+    "startCommand": "uv run mcp-run-python stdio"
+  }
+}
